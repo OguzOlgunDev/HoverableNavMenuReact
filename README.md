@@ -1,9 +1,6 @@
 ### It is a hoverable navbar menu including with sidebar for responsive design
 
 
-### I used useRef, useState, context api for accesing the global veriables for sidebar and navbar links. 
-
-
 ### components are : 
 Navbar
 Navbarlinks
@@ -12,6 +9,12 @@ Sidebar
 Submenu
 Navbar links is inside the Navbar rest of them placing in the App component. 
 
+
+### I used useRef
+for tracking the mouse over behaviour for submenus. I access the submenu cordinates. 
+
+
+### useState, context api for accesing the global veriables for sidebar and navbar links. 
 
 ### these are the global values 
 const [isSidebarOpen, setIsSidebarOpe] = useState(false);
